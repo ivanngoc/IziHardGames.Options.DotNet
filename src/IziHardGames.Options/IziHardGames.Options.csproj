@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <RootNamespace>IziHardGames</RootNamespace>
+    <ProjectGuid>bb4425c8-be16-48a3-ae80-608b9ec2ff7b</ProjectGuid>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <NuspecFile>IziHardGames.Options.nuspec</NuspecFile>
+  </PropertyGroup>
+</Project>

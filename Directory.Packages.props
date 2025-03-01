@@ -1,0 +1,24 @@
+<Project>
+    <PropertyGroup>
+        <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+        <CentralPackageVersionOverrideEnabled>true</CentralPackageVersionOverrideEnabled>
+        <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    </PropertyGroup>
+    <ItemGroup>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageVersion Include="Selenium.WebDriver" Version="4.29.0" />
+        <PackageVersion Include="Selenium.WebDriver.ChromeDriver" Version="133.0.6943.14100" />
+        <PackageVersion Include="Selenium.WebDriver.GeckoDriver" Version="0.36.0" />
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(IsTestProject)'=='true'">
+        <PackageVersion Include="Moq" Version="4.20.70" />
+        <PackageVersion Include="Moq.AutoMock" Version="3.5.0" />
+        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+        <PackageVersion Include="xunit" Version="2.5.3" />
+        <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.3" />
+        <PackageVersion Include="coverlet.collector" Version="6.0.0" />
+    </ItemGroup>
+</Project>
