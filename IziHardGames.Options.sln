@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{647E0867-63D0-4BCA-896A-1455FC675CD2}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Packages.props = Directory.Packages.props
+		LICENSE = LICENSE
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IziHardGames.Options", "src\IziHardGames.Options\IziHardGames.Options.csproj", "{D7663C2C-19FE-4745-B5F9-4031F11E3F9E}"

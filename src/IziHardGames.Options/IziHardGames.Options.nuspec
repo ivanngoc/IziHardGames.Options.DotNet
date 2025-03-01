@@ -2,11 +2,11 @@
 <package>
   <metadata>
     <id>IziHardGames.Options</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <authors>Tran Ngoc Anh</authors>
     <description>A brief description of your package.</description>
     <tags>tag1 tag2 tag3</tags>
-    <license type="file">LICENSE.txt</license>
+    <license type="expression">MIT</license>
     <releaseNotes>Initial release.</releaseNotes>
     <readme>README.md</readme>
     <copyright>Copyright © 2025 IziHardGames</copyright>
@@ -19,7 +19,7 @@
   <files>
     <file src="bin\Release\netstandard2.1\IziHardGames.Options.dll" target="lib\netstandard2.1" />
     <file src="bin\Release\netstandard2.1\IziHardGames.Options.pdb" target="lib\netstandard2.1" />
-    <file src="LICENSE.txt" target="" />
+    <file src="../../LICENSE" target="LICENSE.txt" />
     <file src="README.md" target="" />
   </files>
 </package>
